@@ -8,7 +8,11 @@ environment:
   flutter: ">=2.10.0"
 
 dependencies:
-  flame: ^1.1.1
+  flame:
+    git:
+      url: https://github.com/Rhesos/flame.git
+      ref: main
+      path: packages/flame
   audioplayers: ^0.20.1
   synchronized: ^3.0.0
   flutter:
